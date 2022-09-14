@@ -2,8 +2,8 @@
 
 /**
  * main - main block
- *
- * Return :0
+ * Description - puts string
+ * Return: Always 0 (Success)
  */
 
 int main(void)
