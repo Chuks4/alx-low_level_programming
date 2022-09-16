@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - main block
- * Return: Always 0
+ * main - Fizz Buzz cod
+ *
+ * Return: void
  */
 
 int main(void)
