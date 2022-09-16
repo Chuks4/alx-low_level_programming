@@ -28,6 +28,6 @@ int main(void)
 			printf("%i", num);
 		}
 	}
-	putchar("\n")
+	putchar('\n')
 		return (0);
 }
