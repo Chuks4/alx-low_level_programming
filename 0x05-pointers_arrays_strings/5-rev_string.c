@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_rev - reverses a string
+ * rev_string - reverses a string
  * @s: string to be reversed
  * Returns: null
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	strrev(s);
 }
