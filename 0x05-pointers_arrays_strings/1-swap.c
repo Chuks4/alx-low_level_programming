@@ -1,13 +1,15 @@
 #include "main.h"
+
 /**
  * swap_int - swaps the values of two integer
- * @x: pointer to the first integer
- * @y: pointer to the second integer
+ * @u: pointer to the first integer
+ * @v: pointer to the second interger
+ *
  * Return: Null
  */
-void swap_int(int *x, *y)
+void swap_int(int *u, int *v)
 {
-	int swp = *x;
-	*x = *y;
-	*y = swp;
+	int swp = *u;
+	*u = *v;
+	*v = swp;
 }
