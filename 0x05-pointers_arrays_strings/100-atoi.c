@@ -4,12 +4,12 @@
 #include "main.h"
 
 /**
- * _atio - converts a string to an integer
+ * _atoi - converts a string to an interger
  * @str: pointer to the string to be converted
  *
  * Return: Converted string
  */
-int _atio(char *str)
+int _atoi(char *str)
 {
 	int sign = 1, base = 0, i = 0;
 
@@ -28,9 +28,10 @@ int _atio(char *str)
 			if (sign == 1)
 				return (INT_MAX);
 			else
-				return (INT_MAX);
+				return (INT_MIN);
 		}
 		base = 10 * base + (str[i++] - '0');
 	}
+
 	return (base * sign);
 }
