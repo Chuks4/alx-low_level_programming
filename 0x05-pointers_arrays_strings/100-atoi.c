@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <limits.h>
 #include <string.h>
-#include <main.h>
+#include "main.h"
 
 /**
  * _atio - converts a string to an integer
