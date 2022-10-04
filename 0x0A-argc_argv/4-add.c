@@ -9,9 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
-	int num;
-	int res = 0;
+	int i, num, res = 0;
 	char *flag;
 
 
@@ -21,7 +19,7 @@ int main(int argc, char *argv[])
 		return (0);
 	};
 
-	for (i = 0; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		num = strtol(argv[i], &flag, 10);
 
