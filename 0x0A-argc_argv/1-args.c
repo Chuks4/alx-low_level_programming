@@ -1,0 +1,13 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+/**
+ * main -  prints the number of arguments passed into it
+ * @argc: number of arguments to be printed
+ * @argv: arguments to be printed
+ */
+int main(int argc, char *argv[])
+{
+	printf("%d\n", argc);
+	return (0);
+}
